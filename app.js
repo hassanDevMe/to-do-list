@@ -96,7 +96,7 @@ tasks.addEventListener('click', (elem) => {
             task.isDone = !(task.isDone)
     })}
 
-    else {
+    else (elem.target.classList.contains('del')) {
         arrayOfTasks.forEach((task,index) => {
             if (task.id== elem.target.parentElement.getAttribute('id'))  
                arrayOfTasks.splice(index, 1)
