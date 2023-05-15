@@ -7,7 +7,7 @@ body{
     justify-content: center;
 }
 .container {
-    margin-top: 5%;
+    margin-top: 3%;
     max-width: 650px;
     width: 90%;
     height: 90vh;
@@ -74,4 +74,24 @@ button{
 
 .done>*{
     background-color: rgba(255, 0, 0, 0.418);
+}
+
+
+.notice {
+  background-color: #ffd5d5;
+  border: 1px solid #ff6961;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.notice h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #ff6961;
+}
+
+.notice p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
 }
