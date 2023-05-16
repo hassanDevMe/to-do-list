@@ -1,4 +1,5 @@
 // test conflit
+//  line to test git branch conflits
 // line to test git branch
 let input = document.querySelector('input');
 let button = document.querySelector('button');
