@@ -102,7 +102,7 @@ tasks.addEventListener('click', (elem) => {
                arrayOfTasks.splice(index, 1)
        })
     
-       arrayOfTasks=arrayOfTasks.filter((task) => task.id != elem.target.parentElement.getAttribute('id'))
+        arrayOfTasks=arrayOfTasks.filter((task) => task.id != elem.target.parentElement.getAttribute('id'))
     
         elem.target.parentElement.remove();
     }
